@@ -11,7 +11,7 @@ function Hero() {
   return (
     <div name='home' className='w-full h-screen bg-zinc-200 flex flex-col justify-between'>
         <div className='grid md:grid-cols-2 max-w-[1248px] m-auto'>
-              <div className='flex flex-col justify-content md:items-start w-full px-2 py-8'>
+              <div className='flex flex-col justify-content md:items-start w-full px-2 py-8 text-center'>
                   <p className='text-2xl'>Unique Sequencing & Production</p>
                   <h1 className='py-3 text-5xl md:text-7xl font-bold'>Cloud Management</h1>
                   <p className='text-2xl'>This is our Tech Brand.</p>
@@ -20,7 +20,7 @@ function Hero() {
               <div>
                   <img className='w-full' src={bgImg} alt="" />
               </div>
-              <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[5%]
+              <div className='absolute flex flex-col py-5 md:min-w-[760px] bottom-[2%]
               mx-1 md:left-1/2 trasform md:-translate-x-1/2 bg-zinc-200 border
             border-slate-300 rounded-xl text-center shadow-xl'>
                   <p>Data Services</p>
